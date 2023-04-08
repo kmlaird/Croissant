@@ -1,0 +1,41 @@
+/*CSS Variables*/
+:root {
+  --primary-color: #394a51;
+  --secondary-color: #7fa99b;
+  --nav-color: #fbf2d5;
+  --background: #fdc57b;
+}
+
+/*Base for all pages*/
+body {
+  background-color: var(--background);
+}
+main {
+  margin: 60 auto;
+  padding: 40px;
+}
+.bg-fun {
+  background-color: var(--nav-color);
+}
+
+h1 {
+  font-size: 50px;
+  color: var(--primary-color);
+}
+p {
+  font-size: 18px;
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+/*Photo page*/
+img {
+  margin: 20px;
+}
